@@ -2,6 +2,8 @@ The provided code is an implementation of a scheduler that distributes resources
 
 You can adjust the number of resources by changing the range of the list comprehension in the first line of the __main__ block. The scheduler will run continuously and will keep getting tasks from the outside interface and assigning them to resources as they become available.
 
+You can run scheduler by entering "python scheduler.py"
+
 Also you can test Scheduler code by running "python test_scheduler.py"
 
 This test method first creates two resources and an outside interface, and then creates an instance of the Scheduler class using the resources and outside interface. It then calls the run_scheduler() method on the scheduler instance.
